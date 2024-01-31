@@ -1,0 +1,17 @@
+{
+	"name": "SqlServerDataset",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=DESKTOP-OUI9QH3;initial catalog=31Jan",
+			"userName": "desktop-oui9qh3\\paul",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhN2FhY2M0NS0xMDYyLTQwZTMtYTE2Yi1kNjY1ZDI0NWUyZWIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

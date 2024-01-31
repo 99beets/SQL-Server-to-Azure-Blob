@@ -1,0 +1,9 @@
+{
+	"name": "99beetsADFTutorialDataFactory",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8fa7854c-5979-4910-ad45-225c2886f439",
+		"tenantId": "32b55163-ab10-4932-8dfa-a5eab7bfcc80"
+	}
+}
